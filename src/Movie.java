@@ -1,13 +1,14 @@
 
 public class Movie {
 
-	protected int movieId;
-	protected String movieName;
-	protected String director;
-	protected String artist;
-	protected String time;
-	protected String type;
-	protected String explanation;
+	private int movieId;
+	private String movieName;
+	private String director;
+	private String artist;
+	private String time;
+	private String type;
+	private String explanation;
+	
 	public Movie() {
 		
 	}
