@@ -46,6 +46,7 @@ public class MovieManager {
 				movieFound = true;
 				this.movies.remove(delToMovie);
 				System.out.println("Film silindi!");
+				id--;
 				break;
 			}
 		}

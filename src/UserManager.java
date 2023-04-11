@@ -43,6 +43,7 @@ public class UserManager {
 				userFound = true;
 				this.users.remove(delToUser);
 				System.out.println("Kullanıcı silindi!");
+				id--;
 				break;
 			}
 		}
